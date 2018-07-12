@@ -61,3 +61,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
      opacity: 1 !important;
 }
 
+.btn-large{
+    color: #87ACFF !important;
+    background-color: #87ACFF !important;
+}
