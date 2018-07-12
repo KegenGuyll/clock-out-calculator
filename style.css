@@ -1,0 +1,63 @@
+body{
+	background-image: url("Free-black-and-grey-geometric-wallpaper.png");
+}
+
+.btn{ 
+  background-color: #87AFFF !important;
+}
+
+.card{
+	background: #315FC6;
+}
+
+.timepicker-digital-display{
+	background: #87ACFF;
+}
+
+.timepicker-close{
+	color: #87ACFF;
+}
+
+.timepicker-canvas-bg{
+	fill: #87ACFF;
+}
+
+.timepicker-canvas-bearing
+							{
+	fill: #87ACFF;
+	color: #87ACFF;
+}
+
+.timepicker-canvas-line{
+	stroke: #87ACFF;
+}
+
+
+.timepicker-canvas line{
+	stroke: #87ACFF !important;
+}
+
+/* label focus color */
+ .input-field input:focus + label {
+   color: #87ACFF !important;
+ }
+ /* label underline focus color */
+ .row .input-field input:focus {
+   border-bottom: 1px solid #87ACFF !important;
+   box-shadow: 0 1px 0 0 #87ACFF !important
+ }
+
+ .border-bottom {
+ 	color:  #87AFFF;
+
+ }
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea{
+	border-bottom: 1px solid #EBEBEB;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #EBEBEB;
+     opacity: 1 !important;
+}
+
