@@ -2,6 +2,14 @@ $(document).ready(function(){
     $('.timepicker').timepicker();
   });
 
+$(document).ready(function(){
+    $('.fixed-action-btn').floatingActionButton();
+});
+
+$('.fixed-action-btn').floatingActionButton({
+    toolbarEnabled: true
+});
+
 function Calculate() {
 
     //finds the clock-in time
@@ -52,8 +60,5 @@ function Calculate() {
 
     document.getElementById("time").innerHTML = clockOutTime + " PM";
 
-
-
-
-
 }
+
